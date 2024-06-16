@@ -1,0 +1,32 @@
+.HeaderSection {
+    background-image: url('../assets/header-img.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20em; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-header {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);   
+    margin-bottom: 20px;
+}
+.home-content {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.carouselSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px; 
+}
+

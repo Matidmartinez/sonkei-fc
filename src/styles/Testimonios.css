@@ -1,0 +1,33 @@
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .player-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .testimonial-text {
+    max-width: 600px;
+  }
+  
+  .testimonial-text h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .testimonial-text p {
+    margin: 5px 0;
+    color: #555;
+  }
+  

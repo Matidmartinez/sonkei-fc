@@ -1,0 +1,26 @@
+{
+    "slides": [
+      {
+        "src": "https://www.latercera.com/resizer/bKSFMhtMnezVWtWkdqH4gGQemOA=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/YC7X5NI4BJBCRB4EVURREF5VXE.jpg",
+        "alt": "Image 1 for carousel",
+        "user": "Jorge Acuña" ,
+        "description": "Categoria Senior",
+        "Premio":"1 año de Gatorade"
+      },
+      {
+        "src": "https://i0.wp.com/www.somoschile.cl/wp-content/uploads/2015/06/2015-06-27-03-17-38.png?resize=800%2C445&ssl=1",
+        "alt": "Image 2 for carousel",
+        "user": "Adrian Eduardo Fernandez",
+        "description": "Categoria Super Senior",
+        "Premio":"1 año de GYM"
+        
+      },
+      {
+        "src": "https://b.fssta.com/uploads/application/soccer/headshots/25799.vresize.350.350.medium.12.png",
+        "alt": "Image 3 for carousel",
+        "user": "Angelo Sagal",
+        "description": "Categoria sub 30",
+        "Premio":"1 membresia por un año de tiro al arco"
+      }
+    ]
+    }
