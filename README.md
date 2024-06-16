@@ -9,11 +9,11 @@ Este Proyecto corresponde al Examen de la asignatura "Desarrollo FrontEnd".
 1. Clona el repositorio en tu máquina local.
 
    ```bash
-   git clone https://github.com/Matidmartinez/TerraSol-Front.git
+   git clone https://github.com/Matidmartinez/sonkei-fct.git
 2. Navega al directorio del proyecto.
 
     ```bash
-    cd TerraSol-Front
+    cd sonkei-fc
     ```
 3. Instala las dependencias del proyecto usando npm.
 
