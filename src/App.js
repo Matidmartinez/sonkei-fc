@@ -6,7 +6,7 @@ import { Equipo } from './pages/Equipo';
 import Historia from './pages/Historia';
 import { Entrenamientos } from './pages/Entrenamientos';
 import { Contact } from './pages/Contact';
-import { Testimonios } from './pages/Testimonios';
+import Testimonios from './pages/Testimonios';
 import { Footer } from './componentes/Footer';
 import logo_v2 from './assets/logo_v2.png';
 import { ReactComponent as HamburgerButton } from './assets/hamburger-button.svg';
