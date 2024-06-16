@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ReactComponent as ArrowRightBtn } from '../assets/arrow-right-button.svg'
 import { ReactComponent as ArrowLeftBtn} from '../assets/arrow-left-button.svg'
-import "../styles/Carousel.css";
+import "../styles/carousel.css";
 
 export function  Carousel ({ data }) {
     const [slide, setSlide] = useState(0);
