@@ -1,19 +1,19 @@
 .title {
-    font-family: "Bebas Neue", Impact, sans-serif; /* Fuente más llamativa */
+    font-family: "Bebas Neue", Impact, sans-serif; 
     font-size: 60px;
-    font-weight: 900; /* Más grueso */
+    font-weight: 900; 
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
     padding: 50px;
     margin-bottom: 20px;
     color: #ebd511;
-    text-shadow: 3px 3px 5px rgba(19, 16, 233, 0.795); /* Sombra más intensa */
-    -webkit-text-stroke: 1px rgba(60, 8, 248, 0.897); /* Contorno negro */
+    text-shadow: 3px 3px 5px rgba(19, 16, 233, 0.795);
+    -webkit-text-stroke: 1px rgba(60, 8, 248, 0.897); 
     text-stroke: 1px rgb(25, 9, 241);
   }
   
   .title:hover {
-    color: #ffd700; /* Cambio de color al pasar el mouse */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    color: #ffd700; 
+    transform: scale(1.05); 
   }
