@@ -7,6 +7,8 @@ import { Historia } from './pages/Historia';
 import { Entrenamientos } from './pages/Entrenamientos';
 import { Contact } from './pages/Contact';
 import { Footer } from './componentes/Footer';
+import logo_v2 from './assets/logo_v2.png';
+import { ReactComponent as HamburgerButton } from './assets/hamburger-button.svg';
 
 
 
@@ -25,7 +27,7 @@ const App = () => {
       <div className="container">
         <header className="header">
           <div className="logo">
-            <img src={logo} alt="Logo" />
+            <img src={logo_v2} alt="logo_v2" />
           </div>
           <HamburgerButton className='hamburger' onClick={toggleMenu}/>
           {/* Nav para el menu de pantallas grandes*/}

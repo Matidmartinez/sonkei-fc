@@ -1,12 +1,15 @@
 import React from 'react';
 import { ReactComponent as WhatsApp} from '../assets/whatsApp.svg'
 import '../styles/Footer.css';
+import logofb from '../assets/Facebook icon.png';
+import logoig from '../assets/Instagram icon.png';
+import logo_v2 from '../assets/logo_v2.png';
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src={logo} alt="Logo de Terrasol" /> 
+        <img src={logo_v2} alt="Logo de Sonkei" /> 
       </div>
       <div className="footer-address">
        Av. América #670, San Bernardo, Santiago de Chile
