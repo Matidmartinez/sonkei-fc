@@ -1,9 +1,11 @@
 .title { 
-    font-family: 'BebasNeue';
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
     padding: 50px;
+    margin-bottom: 20px;
+    color: #ebd511;
 }

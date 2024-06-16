@@ -23,18 +23,18 @@ export const Footer = () => {
       <hr></hr>
       <div className="footer-logos">
         <a 
-          href="https://www.facebook.com/tuparcelaenelsurdechile?mibextid=ZbWKwL" 
+          href="https://www.facebook.com/" 
           target="_blank" 
           rel="noopener noreferrer"
-          aria-label="Facebook de Terrasol"
+          aria-label="Facebook"
         >
           <img src={logofb} alt="Facebook" />
         </a>
         <a 
-          href="https://www.instagram.com/terrasol_parcelas/?igsh=eG51a2w4NGx5ODJu" 
+          href="https://www.instagram.com/" 
           target="_blank" 
           rel="noopener noreferrer"
-          aria-label="Instagram de Terrasol"
+          aria-label="Instagram"
         >
           <img src={logoig} alt="Instagram" />
         </a>
