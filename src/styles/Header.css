@@ -1,9 +1,9 @@
 .HeaderSection {
-    background-image: url('../assets/fondo-home.jpg');
-    background-repeat: round;
-    background-attachment: fixed;
-    background-size: auto;
-    height: 20em;
+    background-image: url('../assets/header-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20em; /* Ajusta según tu diseño */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,9 +11,22 @@
     flex-direction: column;
 }
 
-.titulo-header{
-    color: #ffff;
+.titulo-header {
+    color: #fff;
     font-size: 40px;
     text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);   
     margin-bottom: 20px;
 }
+.home-content {
+    text-align: center;
+    margin-top: 40px; /* Aumenta esto según sea necesario para centrar mejor el carrusel */
+}
+
+.carouselSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px; /* Ajusta esto según sea necesario */
+}
+

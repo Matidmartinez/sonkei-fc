@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import './App.css';
 import  Home  from './pages/Home';
 import { Equipo } from './pages/Equipo';
-import { Historia } from './pages/Historia';
+import Historia from './pages/Historia';
 import { Entrenamientos } from './pages/Entrenamientos';
 import { Contact } from './pages/Contact';
 import { Testimonios } from './pages/Testimonios';
