@@ -6,7 +6,6 @@ export const Header = ({ text }) => {
         <div className="HeaderSection">
             <h1 className="titulo-header">{text}</h1>
             <div className='button-container'>
-                {/* Add any buttons here if needed */}
             </div>
         </div>
     )

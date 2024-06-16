@@ -1,0 +1,169 @@
+.NewParcel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.AllParcels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 300px;
+    position: relative;
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 300px;
+    max-width: 300px;
+    height: 450px;
+    overflow: hidden;
+
+}
+
+.image img {
+    min-width: 300px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    z-index: 10;
+    max-width: 300px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.description h1,
+.description h3 {
+    margin: 16px 0;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
+    color: white;
+    text-align: center;
+    z-index: 15;
+}
+
+.additional-info { 
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 8px;
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.card:hover .additional-info { 
+    height: 100%;
+    opacity: 1;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+
+.additional-info h1 p {
+    margin-bottom: 10px;
+    text-align: justify;
+    opacity: 0;
+}
+
+
+.info-item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.m2-icon{
+    fill: #939c20;
+    size: 30px;
+}
+
+.precio-icon {
+    fill: #939c20;
+    width: 28px;
+}
+
+.info-data { 
+    display: flex;
+}
+
+@media (max-width: 1200px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+    }
+}
